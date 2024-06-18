@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: consumer
+
+rocketmq:
+  name-server: 127.0.0.1:9876
+  consumer:
+    group: test-producer01
